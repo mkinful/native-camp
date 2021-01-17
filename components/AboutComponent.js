@@ -56,7 +56,7 @@ class About extends Component {
     if (this.props.partners.errMess) {
       return (
           <ScrollView>
-              <Animatable.View animation='fadeInDown' duration={2000} delay={1000}>
+              <Animatable.View animation='fadeInDown' duration={1000} delay={1000}>
                 <Mission />
                 <Card title='Community Partners'>
                     <Text>{this.props.partners.errMess}</Text>

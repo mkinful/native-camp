@@ -24,7 +24,7 @@ class Directory extends Component {
         const { navigate } = this.props.navigation;
         const renderDirectoryItem = ({item}) => {
             return (
-                <Animatable.View animation='fadeInRightBig' duration={2000}>
+                <Animatable.View animation='fadeInRightBig' duration={1000}>
                     <Tile
                         title={item.name}
                         caption={item.description}
